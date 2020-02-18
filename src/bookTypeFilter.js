@@ -10,8 +10,8 @@ class BookTypeFilter extends React.Component {
         return(
             <div id="bookTypeFilter">
                 <form>
-                    <label htmlFor="bookType">Book Type</label>
-                    <select id="bookType" name="bookType" onChange={e=>console.log(e.target.value)}>
+                    <label htmlFor="bookType" style={{marginLeft: '5px'}}>Book Type: </label>
+                    <select id="bookType" name="bookType" onChange={e=>this.props.handleBookType(e.target.value)}>
                         {bookTypesOptions}    
                     </select>
                 </form>  

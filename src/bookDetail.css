@@ -1,0 +1,22 @@
+.bookDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px lightgray solid;
+}
+
+.bookDetail > div {
+    display: flex;
+}
+
+.bookDetail img {
+    padding: 20px;
+} 
+
+.bookDetail > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}

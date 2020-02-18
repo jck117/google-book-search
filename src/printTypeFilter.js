@@ -9,7 +9,7 @@ class PrintTypeFilter extends React.Component {
         return(
             <div id="printTypeFilter">
                 <form>
-                    <label htmlFor="printType">Print Type</label>
+                    <label htmlFor="printType">Print Type: </label>
                     <select id="printType" name="printType" onChange={e => this.props.handlePrintType(e.target.value)}>
                         {printTypesOptions}    
                     </select>

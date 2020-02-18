@@ -1,0 +1,11 @@
+.filters {
+    width: 100vw;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+

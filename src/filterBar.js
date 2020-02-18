@@ -1,6 +1,7 @@
 import React from 'react';
 import PrintTypeFilter from './printTypeFilter';
 import BookTypeFilter from './bookTypeFilter';
+import './filterBar.css';
 
 class FilterBar extends React.Component {
 
@@ -12,7 +13,7 @@ class FilterBar extends React.Component {
                 <PrintTypeFilter handlePrintType={this.props.handlePrintType}/>
 
                 {/* Book Filter */}
-                <BookTypeFilter />
+                <BookTypeFilter handleBookType={this.props.handleBookType}/>
         </div>            
         )
     }
