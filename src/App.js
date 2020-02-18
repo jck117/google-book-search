@@ -4,7 +4,6 @@ import TopBar from './topBar';
 import './App.css';
 
 // https://developers.google.com/books/docs/overview
-// GoogleBooksAPI key: AIzaSyAee0bCQ32Rpzgy_hXq5nK5X9IgUCTsaIk
 // https://www.googleapis.com/books/v1/volumes?q=search+terms
 
 class App extends React.Component {
